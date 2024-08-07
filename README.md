@@ -20,3 +20,7 @@ I am building a command line tool that works like the Unix wc command. What does
 5. what is a byte?
 6. How to count bytes
 7. how separate a file into words
+
+## Where to find stuff
+
+We have to go to `~/.custom_bash_commands.sh` to change our ccwc command. We will have to write `source .custom_bash_commands.sh` in the terminal to reload our custom command when we change that custom command file.
