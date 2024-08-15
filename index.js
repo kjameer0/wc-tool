@@ -47,7 +47,7 @@ function getNumberOfWords(fileText) {
   return "# of words: " + words.length;
 }
 function getNumberOfBytes(fileText) {
-  const bytes = fileText.length;
+  const bytes = Buffer(fileText).byteLength;
   return "# of bytes: " + bytes;
 }
 function main(globalData) {
